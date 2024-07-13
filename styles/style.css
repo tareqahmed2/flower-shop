@@ -437,7 +437,7 @@ main {
 
 /* responsive design */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 579px) {
   .flower-header {
     max-width: 100%;
     height: 100%;
@@ -458,6 +458,15 @@ main {
   .flower-right-img {
     width: 100%;
     height: 100%;
+  }
+  .feature,
+  .icon,
+  .deal,
+  .instagram,
+  .latest,
+  .footer,
+  .flower-header {
+    margin: 20px;
   }
   .feature-img-container {
     flex-direction: column;
