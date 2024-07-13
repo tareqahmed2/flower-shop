@@ -373,7 +373,7 @@ main {
   padding: 10px;
   border-radius: 5px;
   /* Rectangle 10 */
-  min-width: 506px;
+  max-width: 506px;
   min-height: 46.272px;
   margin-right: 5px;
   border: none;
@@ -433,4 +433,71 @@ main {
   max-width: 355px;
   color: rgba(255, 255, 255, 0.4);
   margin: 0 auto;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 576px) {
+  .flower-header {
+    max-width: 100%;
+    height: 100%;
+  }
+  .flower-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px;
+  }
+  .flower-container-left {
+    text-align: center;
+    margin: 20px;
+  }
+  .flower-right-container {
+    height: 100%;
+    width: 100%;
+  }
+  .flower-right-img {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-img-container {
+    flex-direction: column;
+  }
+  .deal {
+    flex-direction: column;
+  }
+  .icon,
+  .deal-container {
+    flex-direction: column;
+  }
+  .instagram-bottom-container {
+    flex-direction: column;
+  }
+  .latest {
+    flex-direction: column;
+    height: 95%;
+    width: 95%;
+  }
+  .footer-container {
+    max-width: 95%;
+    height: 95%;
+  }
+  .latest-bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+    height: 95%;
+    width: 95%;
+  }
+  .latest-bottom-container input {
+    /* align-self: center; */
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: 80%;
+    /* border: 2px solid green; */
+  }
+  .latest-bottom-container button {
+    text-align: center;
+    align-self: center;
+  }
 }
