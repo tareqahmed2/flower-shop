@@ -471,8 +471,21 @@ main {
   .feature-img-container {
     flex-direction: column;
   }
+  .img-container {
+    width: 80%;
+  }
+  .feature-description {
+    text-align: center;
+    width: 80%;
+  }
   .deal {
     flex-direction: column;
+  }
+  .deal-container .flower-left-description {
+    width: 80%;
+  }
+  .deal-container-right {
+    width: 80%;
   }
   .icon,
   .deal-container {
@@ -481,10 +494,13 @@ main {
   .instagram-bottom-container {
     flex-direction: column;
   }
+  .instagram .instagram-top-container p {
+    width: 80%;
+  }
   .latest {
     flex-direction: column;
     height: 95%;
-    width: 95%;
+    width: 85%;
   }
   .footer-container {
     max-width: 95%;
